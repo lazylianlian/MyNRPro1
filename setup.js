@@ -14,14 +14,13 @@ import {
     View
 } from 'react-native';
 import TableComponent from "./TableComponent";
+import Header from "./Header";
 
 export default class MyRNPro1 extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    Welcome to React Native!
-                </Text>
+                <Header/>
                 <TableComponent/>
             </View>
         );
